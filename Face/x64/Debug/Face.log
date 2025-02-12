@@ -1,0 +1,5 @@
+﻿  Slider.cpp
+C:\Users\Kush\JaliFace\Face\Slider.cpp(54,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kush\JaliFace\Face\Slider.cpp(56,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Kush\JaliFace\Face\Slider.cpp(59,82): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Face.vcxproj -> C:\Users\Kush\JaliFace\Face\x64\Debug\Face.exe
