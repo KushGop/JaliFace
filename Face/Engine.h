@@ -24,9 +24,6 @@ private:
 
 	std::vector<Slider*> sliders;
 	Slider* currentSlider;
-	Slider* leftEye;
-	Slider* rightEye;
-	Slider* mouth;
 	Face* face;
 	void initVariables();
 	void initWindow();

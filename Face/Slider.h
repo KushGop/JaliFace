@@ -11,6 +11,7 @@ private:
 
 public:
 	Slider(sf::Vector2f pos, std::vector<sf::CircleShape>& con);
+	virtual ~Slider();
 
 	sf::RectangleShape back;
 	sf::RectangleShape handle;

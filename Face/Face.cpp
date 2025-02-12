@@ -36,6 +36,13 @@ Face::Face()
 	componentInit({ origin.x + ((count - 1) * (spacing / 2)),origin.y + 50.f }, mouth, count, spacing);
 }
 
+Face::~Face()
+{
+	leftEye.clear();
+	rightEye.clear();
+	mouth.clear();
+}
+
 /// <summary>
 /// renders all components
 /// </summary>

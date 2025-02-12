@@ -37,6 +37,11 @@ Engine::Engine()
 Engine::~Engine()
 {
 	delete window;
+	delete face;
+	for (auto& s : sliders)
+		delete s;
+	sliders.clear();
+	delete currentSlider;
 }
 
 const bool Engine::getWindowIsOpen()

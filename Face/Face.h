@@ -14,6 +14,7 @@ public:
 	std::vector<sf::CircleShape> mouth;
 
 	Face();
+	virtual ~Face();
 	void render(sf::RenderWindow* window);
 };
 

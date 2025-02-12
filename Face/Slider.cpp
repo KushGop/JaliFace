@@ -19,6 +19,11 @@ Slider::Slider(sf::Vector2f pos, std::vector<sf::CircleShape>& con) :control(con
 	handle.setPosition(pos);
 }
 
+Slider::~Slider()
+{
+	control.clear();
+}
+
 /// <summary>
 /// Sets shape origin to center
 /// </summary>
